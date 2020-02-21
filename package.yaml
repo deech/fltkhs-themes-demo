@@ -8,13 +8,13 @@ copyright:           "2018 Aditya Siram"
 data-files:
 - images/*.png
 extra-source-files:
-- README.md
+- README.org
 description:         Please see the README on Github at <https://github.com/deech/fltkhs-themes-demo#readme>
 
 custom-setup:
   dependencies:
   - base >= 4.4
-  - Cabal >= 2.2.0.0 && < 3
+  - Cabal >= 2.4.0.0 && < 4
   - asset-bundle >= 0.1.0.1
   - filepath
   - directory
@@ -37,10 +37,10 @@ executables:
     - -rtsopts
     - -with-rtsopts=-N
     dependencies:
-      - fltkhs >= 0.8.0.0
-      - fltkhs-themes >= 0.2.0.0
+      - fltkhs >= 0.8.0.3
+      - fltkhs-themes >= 0.2.0.3
       - text >= 1.2.2.0
-      - load-font >= 0.1.0.2
+      - load-font >= 0.1.0.3
     when:
       - condition: impl(ghc >= 7.10) && impl(ghc < 8.0) && flag(fastCompile)
         then:

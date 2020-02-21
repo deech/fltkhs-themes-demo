@@ -1,7 +1,7 @@
-resolver: lts-12.26
+resolver: lts-15.0
 allow-newer: true
 extra-deps:
-- fltkhs-0.8.0.0
-- fltkhs-themes-0.2.0.0
-- load-font-0.1.0.2
+- fltkhs-0.8.0.3
+- fltkhs-themes-0.2.0.3
+- load-font-0.1.0.3
 - asset-bundle-0.1.0.1
