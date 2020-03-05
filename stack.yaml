@@ -4,4 +4,4 @@ extra-deps:
 - fltkhs-0.8.0.3
 - fltkhs-themes-0.2.0.3
 - load-font-0.1.0.3
-- asset-bundle-0.1.0.1
+- asset-bundle-0.1.0.2

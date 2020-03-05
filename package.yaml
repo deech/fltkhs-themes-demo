@@ -15,7 +15,7 @@ custom-setup:
   dependencies:
   - base >= 4.4
   - Cabal >= 2.4.0.0 && < 4
-  - asset-bundle >= 0.1.0.1
+  - asset-bundle >= 0.1.0.2
   - filepath
   - directory
 
