@@ -1,7 +1,9 @@
-resolver: lts-15.0
-allow-newer: true
+flags: {}
+resolver: nightly-2020-07-23
 extra-deps:
-- fltkhs-0.8.0.3
-- fltkhs-themes-0.2.0.3
-- load-font-0.1.0.3
 - asset-bundle-0.1.0.2
+- load-font-0.1.0.3
+- git: /home/deech/Haskell/fltkhs
+  commit: df7c8125dae714451dde78b44b6aa324c15eaf94
+- git: /home/deech/Haskell/fltkhs-themes
+  commit: 253bf8e9b8ed53141181c5b0130b0b39773c8bbb

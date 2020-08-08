@@ -1,3 +1,4 @@
 .stack-work/
-fltkhs-themes-demo.cabal
 *~
+/dist-newstyle/
+/stack.yaml.lock
